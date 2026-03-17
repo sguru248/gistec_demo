@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+  <rect width="300" height="120" fill="white" rx="4"/>
+  <rect x="18" y="36" width="48" height="48" rx="10" fill="#00838f"/>
+  <path d="M32 60 L42 50 L52 55 L42 70 Z" fill="white" opacity="0.9"/>
+  <text x="80" y="68" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" fill="#00838f">Critigen</text>
+</svg>

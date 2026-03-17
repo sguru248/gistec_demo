@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+  <rect width="300" height="120" fill="white" rx="4"/>
+  <text x="150" y="55" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#1a5276" text-anchor="middle">HNIT-Baltic</text>
+  <rect x="55" y="66" width="190" height="2" fill="#1a5276"/>
+  <text x="150" y="88" font-family="Arial, Helvetica, sans-serif" font-size="13" fill="#6b7280" text-anchor="middle">Geospatial Solutions</text>
+</svg>

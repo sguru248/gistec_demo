@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+  <rect width="300" height="120" fill="white" rx="4"/>
+  <circle cx="42" cy="58" r="20" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+  <ellipse cx="42" cy="58" rx="20" ry="8" fill="none" stroke="#1e3a5f" stroke-width="1.5" transform="rotate(-30 42 58)"/>
+  <ellipse cx="42" cy="58" rx="20" ry="8" fill="none" stroke="#1e3a5f" stroke-width="1.5" transform="rotate(30 42 58)"/>
+  <circle cx="42" cy="58" r="4" fill="#1e3a5f"/>
+  <text x="75" y="66" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="bold" fill="#1e3a5f">SATRECI</text>
+</svg>

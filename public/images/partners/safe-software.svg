@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 120">
+  <rect width="300" height="120" fill="white" rx="4"/>
+  <rect x="20" y="35" width="50" height="50" rx="8" fill="#0078C2"/>
+  <text x="45" y="68" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">S</text>
+  <text x="85" y="62" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="bold" fill="#0078C2">Safe</text>
+  <text x="85" y="85" font-family="Arial, Helvetica, sans-serif" font-size="18" fill="#444444">Software</text>
+</svg>
