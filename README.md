@@ -1,73 +1,148 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img src="public/images/logotagline.png" alt="Gistec - Esri Official Distributor" width="320" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h1 align="center">Gistec Website</h1>
 
-Currently, two official plugins are available:
+<p align="center">
+  <strong>A modern, reimagined web presence for Gistec</strong><br/>
+  Esri Official Distributor in the UAE since 1976
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=white" alt="React 19" />
+  <img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Vite-8-646CFF?logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Framer_Motion-12-FF0055?logo=framer&logoColor=white" alt="Framer Motion" />
+</p>
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## About This Project
 
-## Expanding the ESLint configuration
+This website was thoughtfully crafted as a **gift** to Gistec -- a tribute to over **50 years of excellence** in delivering world-class geospatial solutions across the UAE and the Middle East.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+The goal was to reimagine Gistec's digital presence with a modern, elegant, and performant website that reflects the company's innovation, expertise, and trusted reputation as Esri's Official Distributor.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+> *"Empowering organizations with the science of where."*
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## What's Inside
+
+### 12 Fully Designed Pages
+
+| Page | Description |
+|------|-------------|
+| **Home** | Hero carousel, stats, quick links, featured solutions, announcements, client logos, contact form |
+| **Products** | Complete GIS software catalog -- ArcGIS, GeoImaging, FME, VertiGIS & more |
+| **Services** | GIS consulting, implementation, data conversion, training & support |
+| **Training** | Esri-certified training programs, discount schemes, seminar series |
+| **Technical Support** | Support center, knowledge base, developer resources |
+| **Customers** | Success stories from RTA, SEWA, ADPC, FEWA & other leading organizations |
+| **Events** | Upcoming & past events including Esri UAE User Conference & gisworx |
+| **Partners** | 25 technology partners with real logos |
+| **About Us** | Company history, key facts, office locations across 5 cities |
+| **Contact** | Multi-category contact form with office details |
+| **Careers** | Join the team -- perks, culture & CV submission |
+| **404** | Custom GIS-themed not-found page |
+
+### Design Highlights
+
+- Dark hero sections inspired by Esri.com's premium aesthetic
+- Smooth scroll-triggered animations throughout
+- Grayscale-to-color logo transitions on hover
+- Responsive design -- beautiful on desktop, tablet & mobile
+- Topographic SVG patterns as decorative elements
+- Animated counters, staggered card reveals & page transitions
+
+---
+
+## Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| **React 19** | Component-based UI |
+| **TypeScript** | Type safety |
+| **Vite 8** | Lightning-fast build tool |
+| **Tailwind CSS 4** | Utility-first styling |
+| **Framer Motion** | Fluid animations & page transitions |
+| **React Router 7** | Client-side routing with lazy loading |
+| **Swiper.js** | Hero carousel & logo ticker |
+| **React Hook Form + Zod** | Form validation |
+| **Lucide React** | Beautiful icon set |
+
+---
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+The dev server runs at `http://localhost:5173`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Deployment
+
+This project builds to a static `dist/` folder and can be deployed anywhere:
+
+- **Vercel** -- connect this repo for automatic deploys
+- **Netlify** -- set build command `npm run build`, publish dir `dist`
+- **Azure Static Web Apps** -- ideal for enterprise deployment
+- **Any static host** -- just upload the `dist/` folder
+
+---
+
+## Project Structure
+
 ```
+src/
+  components/
+    animation/     # Scroll-triggered animation wrappers
+    layout/        # Header, Footer, PageHero, Section
+    sections/home/ # Homepage section components
+    ui/            # Reusable UI components (Button, Card, Badge, etc.)
+  data/            # All content data (products, services, customers, etc.)
+  pages/           # 12 page components
+  hooks/           # Custom React hooks
+  lib/             # Utility functions
+  styles/          # Global CSS
+public/
+  images/          # All logos, icons & assets
+```
+
+---
+
+## Color Palette
+
+| Color | Hex | Usage |
+|-------|-----|-------|
+| Navy | `#0B2545` | Hero backgrounds, dark sections |
+| Blue | `#13538A` | Primary CTAs, Esri blue |
+| Teal | `#0D7377` | Accent elements |
+| Gistec Green | `#2D8632` | Brand color |
+| Emerald | `#10B981` | Modern green accent |
+| Amber | `#FBBF24` | Highlights |
+
+---
+
+<p align="center">
+  <br/>
+  Built with care and admiration for Gistec's legacy.<br/>
+  <strong>Here's to the next 50 years of mapping the future.</strong>
+  <br/><br/>
+  <sub>Powered by Esri</sub>
+</p>
