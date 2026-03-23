@@ -4,7 +4,7 @@ export interface Partner {
 }
 
 export const partners: Partner[] = [
-  { name: 'Safe Software', logo: '/images/partners/safe-software.svg' },
+  { name: 'Safe Software', logo: '/images/partners/safe_soft.png' },
   { name: 'PCI Geomatics', logo: '/images/partners/pci-geomatics.svg' },
   { name: 'GPC Inc.', logo: '/images/partners/gpc.png' },
   { name: 'Navteq', logo: '/images/partners/navteq.png' },
